@@ -6,16 +6,22 @@ return {
 		priority = 1000,
 		opts = {
 			colors = {
+				-- Background ramp: bg is the page, dark_bg/darker_bg are
+				-- panels (slightly off-white), lighter_bg is a visible
+				-- highlight tint used for cursorline / fold / popup-sel.
 				bg = "#fafafa",
-				dark_bg = "#bcbcbc",
-				darker_bg = "#7d7d7d",
-				lighter_bg = "#fbfbfb",
+				dark_bg = "#f0f0f0",
+				darker_bg = "#e8e8e8",
+				lighter_bg = "#ececec",
 
+				-- Foreground ramp goes from main text downward in saturation:
+				-- fg (main) -> light_fg -> bright_fg -> dark_fg (dimmer secondary)
+				-- -> muted (comments / unobtrusive UI text).
 				fg = "#212121",
-				dark_fg = "#191919",
-				light_fg = "#424242",
-				bright_fg = "#595959",
-				muted = "#757575",
+				light_fg = "#2f2f2f",
+				bright_fg = "#000000",
+				dark_fg = "#6e6e6e",
+				muted = "#9a9a9a",
 
 				red = "#c900c4",
 				yellow = "#026fde",
@@ -37,9 +43,9 @@ return {
 				cursor = "#212121",
 				foreground = "#212121",
 				background = "#fafafa",
-				selection = "#bcbcbc",
+				selection = "#c8d4ff",
 				selection_foreground = "#212121",
-				selection_background = "#fbfbfb",
+				selection_background = "#c8d4ff",
 			},
 		},
 		-- set up hot reload

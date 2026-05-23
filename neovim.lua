@@ -48,12 +48,6 @@ return {
 				selection_background = "#c8d4ff",
 			},
 		},
-		-- set up hot reload
-		config = function(_, opts)
-			require("aether").setup(opts)
-			vim.cmd.colorscheme("aether")
-			require("aether.hotreload").setup()
-		end,
 	},
 	{
 		"LazyVim/LazyVim",

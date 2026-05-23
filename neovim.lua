@@ -26,7 +26,7 @@ return {
 				red = "#c900c4",
 				yellow = "#026fde",
 				orange = "#d126cd",
-				green = "#424242",
+				green = "#0a8fb8",
 				cyan = "#0c67de",
 				blue = "#3264eb",
 				purple = "#8a4ad7",
@@ -34,7 +34,7 @@ return {
 
 				bright_red = "#f930fb",
 				bright_yellow = "#358fff",
-				bright_green = "#358fff",
+				bright_green = "#2bb3d9",
 				bright_cyan = "#3986ff",
 				bright_blue = "#5482ff",
 				bright_purple = "#b363ff",
